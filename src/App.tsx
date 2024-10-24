@@ -1,11 +1,13 @@
-import App from "./components/PokemonCard";
+import "./App.css"
 
-function PokemonCard() {
-  return (
-    <div>
-      <PokemonCard/>
-    </div>
+import PokemonCard from "./components/PokemonCard";
+
+function App() {
+  return ( 
+      <section>
+        <PokemonCard />
+      </section>
   );
 }
 
-export default App;
+export default App
